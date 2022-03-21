@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+  <title>Web Storage</title>
+</head>
+
+<body>
+  <h2>Last Visit Example</h2>
+  <script>
+    var lastVisit = localStorage.getItem('lastVisit');
+    if (lastVisit) {
+      lastVisit = new Date(lastVisit);
+      document.write('Your last visit was:' + lastVisit.toLocaleString());
+      localStorage.setItem('lastVisit', new Date());
+    }
+    else {
+      localStorage.setItem('lastVisit', new Date());
+    }
+  </script>
+</body>
+
+</html>

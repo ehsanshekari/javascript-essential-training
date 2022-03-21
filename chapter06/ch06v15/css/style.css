@@ -1,0 +1,24 @@
+[data-drop-target] {
+    height: 400px;
+    width: 200px;
+    margin: 2px;
+    background-color: gainsboro;
+    float: left;
+  }
+
+  .drag-enter {
+    border: 2px dashed #000;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+  .red {
+    background-color: red;
+  }

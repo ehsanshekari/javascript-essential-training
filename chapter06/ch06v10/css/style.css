@@ -1,0 +1,28 @@
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bg-red {
+    background-color: #f44336;
+}
+
+
+.bg-green {
+    background-color: #4CAF50;
+}
+
+#counter{
+    background-color: #A2E2F2;
+    padding: 15px 78px;
+    margin: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

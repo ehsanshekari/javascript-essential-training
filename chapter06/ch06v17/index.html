@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Froms</title>
+</head>
+
+<body>
+  <form action="" name="register_form" onsubmit="return printValues()">
+    <label for="firstname">Firstname: </label><input type="text" name="firstname" value="Test">
+    <br><br>
+    <label for="lastname">Lastname: </label><input type="text" name="lastname">
+    <br><br>
+    <label for="username">Username: </label><input type="text" name="username">
+    <br><br>
+    <label for="password">Password: </label><input type="password" name="password">
+    <br><br>
+    <label for="password2">Password Retype: </label><input type="password" name="password2">
+    <br><br>
+    <p>
+      <input type="radio" name="gender" checked="checked" value="male" /><label>Male</label>
+      <input type="radio" name="gender" value="female" /><label>Female</label>
+    </p>
+    <p>
+      <label for="front">Front-end Developer</label>
+      <input type="checkbox" name="front" value="front" />
+    </p>
+    <p>
+      <label for="back">Back-end Developer</label>
+      <input type="checkbox" name="back" value="back" />
+    </p>
+    <label for="cars">Choose Age:</label>
+    <select name='age'>
+      <option value="20-30">20-30</option>
+      <option value="30-40">30-40</option>
+      <option value="40-50">40-50</option>
+    </select>
+    <br><br>
+    <input type="submit" name="submit" value="Submit The Form">
+  </form>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

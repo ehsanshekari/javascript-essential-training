@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+
+.site-name {
+    float: left;
+    font-size: 25px;
+    width: 20%;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#section1 {
+    clear: both;
+}
+
+section {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,1 @@
+document.write('Your favourite color is: ' + getCookie('color'));
